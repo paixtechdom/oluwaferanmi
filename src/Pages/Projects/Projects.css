@@ -1,0 +1,42 @@
+
+.my-projects{
+
+}
+.projectsParent{
+    width: 100%;
+}
+
+.projects > div{
+    width: 450px;
+    margin-bottom: 50px;
+}
+.projectText{
+    padding: 20px;
+    width: 100%;
+}
+.projectImg{
+    width: 50px;
+}
+
+p.line{
+    height: calc(100% + 50px);
+    max-width: 1px;
+    min-width: 1px;
+    background-color: var(--primaryColor);
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+p.line i.circle{
+    background-color: white;
+    border: 1px solid var(--primaryColor);
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    position: absolute;
+    top: 0%;
+}
+
+.lastProject p.line{
+    height: 100%;
+}

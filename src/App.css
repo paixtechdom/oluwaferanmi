@@ -1,0 +1,107 @@
+@import url('https://cdn.syncfusion.com/ej2/20.3.56/bootstrap5.css');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+:root{
+  --primaryColor : #1b1f84;
+  --secondaryColor : #2526a6;
+  --tertiaryColor : #f2210b;
+  --black: rgb(10, 10, 10);
+}
+
+.text-white{
+  color: white;
+}
+.text-blue{
+  color: var(--primaryColor);
+}
+.bg-blue, button.bg-blue, a.bg-blue{
+  background-color: var(--primaryColor);
+}
+button.bg-blue:hover{
+  background-color: white;
+  color: black !important;
+}
+p, .p{
+  font-size: 15px;
+}
+.text-small{
+  font-size: 12px;
+}
+.pageBody{
+  width: 100%;
+}
+input{
+  height: 50px;
+}
+
+.slideRight{
+  animation: right 2s ease-in-out;
+}
+.slideLeft{
+  animation: left 0.7s ease-in-out;
+}
+.slideBottom{
+  animation: bottom 0.7s ease-in-out;
+
+}
+
+.parallaxParent{
+  transition: all 0.5s ease;
+}
+
+.animateParallaxBottom{
+  animation: animateParallaxBottom 1s ease-in-out;
+}
+.animateParallaxRight{
+  animation: animateParallaxRight 1s ease-in-out;
+}
+.w-90{
+  width: 90%;
+}
+
+.transition{
+  transition: all 0.5s ease-in-out;
+}
+
+
+@keyframes left{
+  0%{margin-left: -100%;}
+  100%{margin-left: 0%;}
+}
+@keyframes right{
+  0%{margin-right: -100%;}
+  100%{margin-right: 0%;}
+}
+@keyframes bottom{
+  0%{bottom: -100%;}
+  100%{bottom: 0%;}
+    
+}
+
+@keyframes animateParallaxBottom {
+  from{
+      top: 200px;
+      opacity: 0;
+  }
+  to{
+      top: 0px;
+      opacity: 1;
+  }
+}
+
+@keyframes animateParallaxRight {
+  from{
+      right: -100%;
+      opacity: 0;
+  }
+  to{
+      right: 0px;
+      opacity: 1;
+  }
+}

@@ -1,0 +1,7 @@
+.top{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    position: fixed;
+    transition: all 0.4s ease-in-out;
+}
