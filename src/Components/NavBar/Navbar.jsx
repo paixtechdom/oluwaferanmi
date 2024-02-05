@@ -167,7 +167,7 @@ export const Navbar = () =>{
                     width: posWidth+'%',
                     height: 3+'px'
                 }}>
-                    <i className="bi bi-person-fill position-absolut right-0 transition" style={{
+                    <i className="bi bi-person-fill text-blue position-absolut right-0 transition" style={{
                         left: posWidth+'%',
                         fontSize: 20+'px'
                     }}></i>

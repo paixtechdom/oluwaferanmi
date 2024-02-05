@@ -8,10 +8,28 @@ import { Parallax, ParallaxRight } from '../../Components/Parallax'
 export const Projects =() =>{
     const projects = [
         {
+            title: 'Website for Saculiet Driving School',
+            lang: ['REACT', 'Tailwind', 'SQL'],
+            link: 'https://saculietdrivingschool.com',
+            description:  ['Developed landing page for the driving school, displaying the basic information about the business.'],
+        },
+        {
+            title: 'PREJUM - BLOG',
+            lang: ['REACT', 'Tailwind', 'JSON'],
+            link: 'https://prejum.netlify.app',
+            description:  ['Designed a prototype blog website containing a landing page about the blog and a blog page which displays the blogs.'],
+        },
+        {
             title: 'Website for Christ Liberty Assembly',
-            lang: ['REACT', 'Tailwind', 'PHP', 'SQL'],
+            lang: ['REACT', 'Tailwind', 'PHP', 'SQL', 'JSON'],
             link: 'https://christlibertyassembly.org.ng',
             description:  ['Church website with key functionalities such as article reading, listening to sermons and image gallery.'],
+        },
+        {
+            title: 'Website for Paix Techdom',
+            lang: ['REACT', 'Tailwind'],
+            link: 'https://paixtechdom.netlify.app',
+            description:  ['Designed a landing page for a website Development Company, displaying the basic information about the services of the company.'],
         },
         {
             title: 'Website for Macmay Group',
@@ -32,12 +50,12 @@ export const Projects =() =>{
             link: 'https://eduaidsocialmedia.000webhostapp.com/',
             description:  ['bold Username: guest','bold Password: guestguest','This is a custom social media application suitable for a university.',' It has features such as adding of posts which can be texts, a picture or both.','It also has sections to view updates added by the admin, a gallery section, and a section where the final year student can upload a copy of their projects, which can be downloaded by the other students.', 'It also has the functionality for updating of password and profile picture.'],
         },
-        {
-            title: 'Website for Swift Courier Exchange',
-            lang: ['HTML', 'CSS', 'PHP', 'SQL'],
-            link: 'https://swiftcourierexchange.com',
-            description:  ['Developed a website for a logistic company, which displays information about the company, and most importantly creating of shipments and tracking of shipments.', 'The website includes functionality for the admin to be able to create shipments, update shipment status, and a dashboard for an overall overseeing of all active, completed and cancelled shipments.'],
-        },
+        // {
+        //     title: 'Website for Swift Courier Exchange',
+        //     lang: ['HTML', 'CSS', 'PHP', 'SQL'],
+        //     link: 'https://swiftcourierexchange.com',
+        //     description:  ['Developed a website for a logistic company, which displays information about the company, and most importantly creating of shipments and tracking of shipments.', 'The website includes functionality for the admin to be able to create shipments, update shipment status, and a dashboard for an overall overseeing of all active, completed and cancelled shipments.'],
+        // },
         // {
         //     title: 'Website for Eduaid Consult',
         //     link: 'https://eduaidconsult.com',
