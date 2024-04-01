@@ -102,7 +102,7 @@ export const Navbar = () =>{
                 {
                     navPos == 0 ? 
                     <i className='bi bi-x-lg text-blue'></i> :
-                    <i className='bi bi-justify text-blue'></i>
+                    <i className='bi bi-list cursor-pointer text-blue'></i>
                 }
             </h3>
         }

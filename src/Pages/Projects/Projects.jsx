@@ -8,28 +8,28 @@ import { Parallax, ParallaxRight } from '../../Components/Parallax'
 export const Projects =() =>{
     const projects = [
         {
-            title: 'Website for Saculiet Driving School',
+            title: 'Saculiet NIG ENT',
             lang: ['REACT', 'Tailwind', 'SQL'],
             link: 'https://saculietdrivingschool.com',
-            description:  ['Developed landing page for the driving school, displaying the basic information about the business.'],
-        },
-        {
-            title: 'PREJUM - BLOG',
-            lang: ['REACT', 'Tailwind', 'JSON'],
-            link: 'https://prejum.netlify.app',
-            description:  ['Designed a prototype blog website containing a landing page about the blog and a blog page which displays the blogs.'],
+            description:  ['Developed a portal  for the Driving School Arm of the company, for organizations to verify the certificates of the students of the driving school', 'Key features includes:', '•    A page for organizations to submit student verification requests Email verification', '•    A dashboard for the school to manage requests, student and organizations', '•    Emails to notify the school of a request submission, inform organizations when the requests is granted and to inform students when their certificate is verified by an organization', 'Designed a landing page and a page for gallery which displays images and pictures of the driving school'],
         },
         {
             title: 'Website for Christ Liberty Assembly',
             lang: ['REACT', 'Tailwind', 'PHP', 'SQL', 'JSON'],
             link: 'https://christlibertyassembly.org.ng',
-            description:  ['Church website with key functionalities such as article reading, listening to sermons and image gallery.'],
+            description:  ['Developed a website for the church, Christ Liberty Assembly containing key sections such as:', '•   A page for displaying sermons and a gallery page that displays images of the church.', '•	A page to display articles and a page for each article. The link to each article can be shared on Facebook, WhatsApp or the copied to clipboard.', '•	A search functionality to filter out articles by title and sermons by title or preacher.'],
         },
         {
             title: 'Website for Paix Techdom',
             lang: ['REACT', 'Tailwind'],
             link: 'https://paixtechdom.netlify.app',
             description:  ['Designed a landing page for a website Development Company, displaying the basic information about the services of the company.'],
+        },
+        {
+            title: 'PREJUM - BLOG',
+            lang: ['REACT', 'PHP', 'Tailwind', 'JSON'],
+            link: 'https://prejum.netlify.app',
+            description:  ['Designed a prototype blog website containing a landing page about the blog and a blog page which displays the blogs.']
         },
         {
             title: 'Website for Macmay Group',
@@ -139,10 +139,10 @@ export const Projects =() =>{
                                             ))
                                         }
                                     </div>
-                                    <div>
+                                    <div className="d-flex flex-column">
                                         {
                                             project?.description?.map((des, key) =>(
-                                            <p className='m-0' key={key}>
+                                            <p className='m-0 mb-3' key={key}>
                                                 {des.includes('bold') ?
                                                 <strong>{des.replace('bold', '')}</strong> : des}
                                             </p>

@@ -98,8 +98,8 @@ const Home =() =>{
                 
                 <header id='Home' className={`parent header d-flex w-100 align-items-center justify-content-center ${mediumScreen ? 'flex-column' : ''}`}>
                     <div className={`d-flex justify-content-between ${mediumScreen ? 'align-items-center' : ''} flex-column`} style={{
-                        paddingLeft: !mediumScreen ? 10+'%' : '',
-                        
+                        paddingLeft: !mediumScreen ? 10+'%' : '' 
+
                     }}>
 
                     {/* <ParallaxRight id={'heroName'} center={true}> */}
